@@ -1,0 +1,13 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.header{
+    height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    background: rgba(229, 84, 115, 0.10);
+}
+.header-content{
+    align-items: center;
+}
