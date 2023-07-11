@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beautiful flowers</title>
     <link rel="stylesheet" href="styles/flower.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:wght@800&family=Poppins:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
     <header class="header">
       <div class="header-content">
         <h1 class="heading">
@@ -53,20 +62,6 @@
           <p class="bonus-text">yellow flower tree</p>
         </div>
       </section>
-      <div class="delivary">
-        <div>
-          <iframe src="images/Flower Asset/Group 57.png" frameborder="0"></iframe>
-          <p>Same Day Delivery. Click & Collect.</p>
-        </div>
-        <div>
-          <iframe src="images/Flower Asset/Group 57.png" frameborder="0"></iframe>
-          <p>Same Day Delivery. Click & Collect.</p>
-        </div>
-        <div>
-          <iframe src="images/Flower Asset/Group 57.png" frameborder="0"></iframe>
-          <p>Same Day Delivery. Click & Collect.</p>
-        </div>
-      </div>
 
       <section>
         <div class="main-header">
@@ -91,10 +86,18 @@
         </p>
       </section>
       <section class="four-box">
-        <div class="image-style" ><img src="images/Flower Asset/Flower 01.png" alt=""></div>
-        <div ><img src="images/Flower Asset/Rectangle 4.png " alt=""></div>
-        <div ><img src="images/Flower Asset/Rectangle 5.png" alt=""></div>
-        <div ><img src="images/Flower Asset/Rectangle 6.png " alt=""></div>
+        <div>
+          <img class="common" src="images/Flower Asset/Flower 01.png" alt="" width="300" height="300" />
+        </div>
+        <div>
+          <img  class="common"  src="images/Flower Asset/Rectangle 4.png " alt="flower" width="300" height="300"/>
+        </div>
+        <div>
+          <img  class="common"  src="images/Flower Asset/Rectangle 5.png" alt="" width="300" height="300"/>
+        </div>
+        <div>
+          <img src="images/Flower Asset/Rectangle 6.png " alt="" width="300" height="300"/>
+        </div>
       </section>
 
       <section class="last">
@@ -102,18 +105,27 @@
           <h1>Get The Latest Deals</h1>
           <p>$30 coupon for first shopping</p>
           <div class="input">
-            <input type="email" placeholder="enter your email here...." name="" id="">
-          <button>subscribe</button>
+            <input
+              type="email"
+              placeholder="enter your email here...."
+              name=""
+              id=""
+              
+            />
+            <button class="button-style">subscribe</button>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <h1><span>flower </span> shop</h1>
-      <p>t is a long established fact that a reader will be distracted by the readable <br>
-        content of a page when looking at its layout</p>
-        <small>@2020-2023, FlowerShop.com. All rights reserved.</small>
+      <h1><span>flower </span> shop</h1><br>
+      <p>
+        t is a long established fact that a reader will be distracted by the
+        readable <br />
+        content of a page when looking at its layout
+      </p><br><br>
+      <small>@2020-2023, FlowerShop.com. All rights reserved.</small>
     </footer>
   </body>
 </html>
